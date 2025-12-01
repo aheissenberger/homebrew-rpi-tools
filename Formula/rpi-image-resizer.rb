@@ -1,14 +1,14 @@
 class RpiImageResizer < Formula
   desc "Cross-platform Raspberry Pi image resizing and SD card cloning tool"
   homepage "https://github.com/aheissenberger/raspberry-image-resizer-docker"
-  version "0.0.1"
+  version "0.0.2"
   
   # Update these URLs when creating a GitHub release
   if Hardware::CPU.arm?
-    url "https://github.com/aheissenberger/raspberry-image-resizer-docker/releases/download/v0.0.1/rpi-tool-darwin-arm64.tar.gz"
-    sha256 "" # Add SHA256 checksum after building release
+    url "https://github.com/aheissenberger/raspberry-image-resizer-docker/releases/download/v0.0.2/rpi-tool-darwin-arm64.tar.gz"
+    sha256 "c31c1bb3d0c91f488cc7488893bf9f421dfe0c5a6db57768ff66e555db803053" # Add SHA256 checksum after building release
   else
-    url "https://github.com/aheissenberger/raspberry-image-resizer-docker/releases/download/v0.0.1/rpi-tool-darwin-amd64.tar.gz"
+    url "https://github.com/aheissenberger/raspberry-image-resizer-docker/releases/download/v0.0.2/rpi-tool-darwin-amd64.tar.gz"
     sha256 "" # Add SHA256 checksum after building release
   end
 
